@@ -101,11 +101,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: He gets to school by c _ r.🚗",
+    "ข้อ 3: He gets to school by `c _ r`.🚗",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: He read a b _ _ k/s.📖",
+    "ข้อ 4: He read a `b _ _ k/s`.📖",
     value=st.session_state.ans4_val,
 )
 
